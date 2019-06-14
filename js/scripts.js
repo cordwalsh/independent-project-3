@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
     event.preventDefault();
-    var keyNumbers= ['1','2','3']
+    var keyNumbers= ['1','2','3','69','420']
     var userInput = ($("#number").val());
     var finalString = "";
     var stringArray = [];
@@ -16,7 +16,10 @@ $(document).ready(function() {
         stringArray[index] = " Boop!"
       }
       else if (indexString.includes("1")) {
-          stringArray[index] = " Beep!"
+        stringArray[index] = " Beep!"
+      }
+      else if (indexString.includes("69")) {
+        stringArray[index] = " Your a naughty boy"
       }
       else {
         stringArray[index]= indexString;

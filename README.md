@@ -7,6 +7,11 @@
 
 This site is a basic input page that showcases what we have learned so far. It uses HTML, CSS and Bootstrap.
 
+## Setup/Installation Requirements
+clone this repository https://github.com/cordwalsh/independent-project-1.git
+deploy this Project https://cordwalsh.github.io/independent-project-1
+open and view in web browser
+
 ## Specs
 
 The program returns a range of numbers from 0 to the users inputted number
