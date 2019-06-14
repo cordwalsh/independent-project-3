@@ -37,6 +37,6 @@ Github at https://github.com/cordwalsh
 
 ## Technologies Used
 
-HTML. CSS. Bootstrap.
+HTML. CSS. Bootstrap. Javascript. Jquery
 
 Copyright (c) 2019 Cord Walsh
