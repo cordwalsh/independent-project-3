@@ -15,7 +15,3 @@ The program returns a phrase depending on the users inputted numbers
 The program returns a phrase depending on the users inputted numbers
 - Input: "3"
 - Output: "I'm sorry Dave. I'm afraid I can't do that."
-
-The program returns a phrase when the user inputs a phrase.
-- Input: "hello"
-- Output "Please enter a number that I can read"
