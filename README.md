@@ -8,8 +8,8 @@
 This site is a basic input page that showcases what we have learned so far. It uses HTML, CSS and Bootstrap.
 
 ## Setup/Installation Requirements
-clone this repository https://github.com/cordwalsh/independent-project-1.git
-deploy this Project https://cordwalsh.github.io/independent-project-1
+clone this repository https://github.com/cordwalsh/independent-project-3.git
+deploy this Project https://cordwalsh.github.io/independent-project-3
 open and view in web browser
 
 ## Specs

@@ -1,12 +1,5 @@
-$(document).ready(function() {
-  $("#formOne").submit(function(event) {
-    event.preventDefault();
-    var keyNumbers= ['1','2','3','69','420']
-    var userInput = ($("#number").val());
-    var finalString = "";
-    var stringArray = [];
-// ////////////////////////
-    console.log(userInput)
+
+
     for (var index = 0; index <= userInput; index ++) {
       var indexString = index.toString();
       if (indexString.includes("3")) {
@@ -24,8 +17,15 @@ $(document).ready(function() {
       else {
         stringArray[index]= indexString;
       }
-      console.log(indexString)
     }
   $("#results").text(stringArray.toString());
   });
 });
+// /////////////////
+$(document).ready(function() {
+$("#formOne").submit(function(event) {
+event.preventDefault();
+var keyNumbers= ['1','2','3','69','420']
+var userInput = ($("#number").val());
+var finalString = "";
+var stringArray = [];
