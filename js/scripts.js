@@ -1,6 +1,5 @@
-
-
-    for (var index = 0; index <= userInput; index ++) {
+function beepBoop(visitorInput, stringArray) {
+    for (var index = 0; index <= visitorInput; index ++) {
       var indexString = index.toString();
       if (indexString.includes("3")) {
         stringArray[index] = " I'm sorry, I'm afraid I can't do that"
@@ -18,9 +17,8 @@
         stringArray[index]= indexString;
       }
     }
-  $("#results").text(stringArray.toString());
-  });
-});
+    return stringArray;
+  };
 // /////////////////
 $(document).ready(function() {
 $("#formOne").submit(function(event) {
@@ -29,3 +27,6 @@ var keyNumbers= ['1','2','3','69','420']
 var userInput = ($("#number").val());
 var finalString = "";
 var stringArray = [];
+$("#results").text(beepBoop(userInput,stringArray));
+});
+});
